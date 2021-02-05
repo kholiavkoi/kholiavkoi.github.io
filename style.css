@@ -35,7 +35,7 @@
   text-decoration: none;
   color: #f5f5f5;
 }
-.img {
+.header__menu-img {
   width: 30px;
   height: 30px;
   display: flex;
@@ -46,6 +46,27 @@
   display: block;
   font-weight: 700;
   transition: ease-out 0.3s;
+}
+.header__menu-lang {
+  display: flex;
+  margin-top: 13px;
+}
+.header__menu-lang a {
+  padding: 10px;
+  font-size: 12px;
+  position: relative;
+  transition: all 0.5s;
+}
+.header__menu-lang a:hover {
+  color: #7c7c7c;
+}
+.header__menu-lang a:hover::after {
+  content: "";
+  border: 1px dotted #7c7c7c;
+  width: 20px;
+  left: 8px;
+  bottom: 15px;
+  position: absolute;
 }
 .main__info {
   background-image: url(images/main-bg.jpg);
@@ -198,16 +219,16 @@ table tr:last-child {
   width: 90%;
 }
 .about-me__info-skills__block-item.js::after {
-  width: 60%;
+  width: 30%;
 }
 .about-me__info-skills__block-item.bs::after {
-  width: 50%;
+  width: 20%;
 }
 .about-me__info-skills__block-item.git::after {
-  width: 80%;
+  width: 70%;
 }
 .about-me__info-skills__block-item.pfa::after {
-  width: 70%;
+  width: 90%;
 }
 .about-me__info-skills__block-item.bem::after {
   width: 80%;
@@ -244,6 +265,16 @@ table tr:last-child {
 .about-me__info-hobby-video {
   margin-bottom: 50px;
 }
+.about-me__info-hobby__football-photo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.about-me__info-hobby__football-photo-item img {
+  width: 400px;
+  height: 300px;
+}
+
 .portfolio__block {
   border-bottom: 1px solid #a7a7a77c;
   margin-bottom: 50px;
@@ -320,6 +351,7 @@ input[type="submit"] {
   transition: ease-out 0.5s;
   cursor: pointer;
   background-color: #f5f5f5;
+  width: 120px;
 }
 input[type="submit"]:hover {
   color: #f5f5f5;
