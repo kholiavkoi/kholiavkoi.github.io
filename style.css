@@ -337,6 +337,10 @@ input[type="submit"]:hover {
   text-align: left;
   font-size: 14px;
 }
+.contacts__block-info__form-name,
+.contacts__block-info__form-email {
+  width: 213px;
+}
 .contacts__block-info__text-info a {
   text-decoration: none;
   color: #050505;
