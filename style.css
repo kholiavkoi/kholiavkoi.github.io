@@ -203,8 +203,8 @@ table tr:last-child {
 .about-me__info-skills__block-item.wp::after {
   width: 50%;
 }
-.about-me__info-skills__block-item.bs::after {
-  width: 60%;
+.about-me__info-skills__block-item.git::after {
+  width: 80%;
 }
 .about-me__info-skills__block-item.pfa::after {
   width: 70%;
