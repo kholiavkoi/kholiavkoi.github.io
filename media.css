@@ -1,0 +1,205 @@
+@media (max-width: 1260px) {
+  .about-me__info-hobby__football-photo-item img {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media (max-width: 1100px) {
+  .main__info-text h1,
+  .main__info-text h2,
+  .main__info-text p {
+    transform: none;
+  }
+  .main__info-text {
+    right: 15%;
+  }
+  .about-me__info-hobby__football-photo-item img {
+    width: 300px;
+    height: 210px;
+  }
+  .portfolio__block-exmpl-item img {
+    width: 380px;
+  }
+  .contacts__block-info__form {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 970px) {
+  .about-me__info-hobby__football-photo {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .about-me__info-hobby__football-photo-item img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  .contacts__block-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts__block-info__form {
+    margin: 0 auto;
+  }
+  .contacts__block-info__form-theme,
+  textarea {
+    width: 99%;
+  }
+  .contacts__block-info__form-name,
+  .contacts__block-info__form-email {
+    width: 49%;
+  }
+  input[type="submit"] {
+    margin: 10px auto 20px;
+    display: block;
+  }
+}
+@media (max-width: 815px) {
+  .header__menu li {
+    margin: 0 20px;
+  }
+  .main__info-text h1 {
+    font-size: 32px;
+  }
+  .main__info-text h2 {
+    font-size: 28px;
+  }
+  .main__info-text p {
+    font-size: 26px;
+  }
+  .main__info-text {
+    right: 5%;
+  }
+  #button {
+    left: 11px;
+  }
+  .about-me__info-education * {
+    font-size: 12px;
+  }
+  .about-me__info-name {
+    padding-top: 30px;
+  }
+  .about-me__info-education table {
+    margin: 20px auto;
+  }
+  .about-me__info-skills {
+    margin-top: 20px;
+  }
+  .portfolio__block-exmpl {
+    flex-wrap: wrap;
+  }
+  .portfolio__block-exmpl-item img:hover {
+    transform: scale(1);
+  }
+}
+@media (max-width: 710px) {
+  .header__menu span {
+    font-size: 10px;
+  }
+  .main__info {
+    background-position-x: -190px;
+  }
+  .about-me__info-hobby-video iframe {
+    width: 400px;
+    height: 200px;
+  }
+  .contacts__block-info__form-name,
+  .contacts__block-info__form-email {
+    width: 99%;
+  }
+}
+@media (max-width: 575px) {
+  .header__menu span {
+    margin-top: 0;
+  }
+  .header__menu-lang a {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .about-me__info-education * {
+    font-size: 10px;
+  }
+  .about-me__info-name span:first-child {
+    font-size: 30px;
+  }
+  .about-me__info-name span + span {
+    font-size: 24px;
+  }
+  .about-me__info-skills span {
+    font-size: 24px;
+  }
+  .about-me__info-skills__block {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .about-me__info-skills__block-item:hover {
+    transform: scale(1);
+    margin-left: 0;
+  }
+  .about-me__info-hobby {
+    margin: 20px auto;
+  }
+  .about-me__info-hobby span {
+    font-size: 24px;
+  }
+  .about-me__info-hobby__football-photo {
+    margin-bottom: 30px;
+  }
+  .portfolio__block {
+    margin-bottom: 30px;
+  }
+  .portfolio__block span {
+    font-size: 24px;
+  }
+  .portfolio__block-exmpl-item img:last-child {
+    margin-bottom: 30px;
+  }
+  .contacts__block span {
+    font-size: 18px;
+  }
+  .contacts__block p {
+    font-size: 14px;
+  }
+  .contacts__block-info__text,
+  .contacts__block-info__form {
+    width: 100%;
+  }
+}
+@media (max-width: 460px) {
+  .header__menu span {
+    display: none;
+  }
+  .header__menu li {
+    margin: 0 10px;
+  }
+  .header__menu-img {
+    margin: 10px;
+  }
+  .header__menu-lang {
+    margin-top: 3px;
+    flex-direction: column;
+  }
+  .main__info-text h1,
+  .main__info-text h2 {
+    color: #f5f5f5;
+  }
+  .about-me__info-education * {
+    font-size: 8px;
+  }
+  .about-me__info-hobby-video iframe {
+    width: 280px;
+    height: 150px;
+  }
+  .about-me__info-hobby__football-photo-item img {
+    width: 280px;
+    height: 210px;
+  }
+  .portfolio__block-exmpl-item img {
+    width: 280px;
+  }
+  @media (max-width: 350px) {
+    .header__menu-img {
+      margin: 10px 0;
+    }
+  }
+} ;

@@ -60,14 +60,7 @@
 .header__menu-lang a:hover {
   color: #7c7c7c;
 }
-.header__menu-lang a:hover::after {
-  content: "";
-  border: 1px dotted #7c7c7c;
-  width: 20px;
-  left: 8px;
-  bottom: 15px;
-  position: absolute;
-}
+
 .main__info {
   background-image: url(images/main-bg.jpg);
   background-repeat: no-repeat;
@@ -119,7 +112,8 @@ h2 {
   background-color: #050505;
   border-radius: 50%;
   bottom: -8px;
-  left: 621px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .about-me__info-name span {
   display: block;
@@ -148,7 +142,8 @@ h2 {
   background-color: #050505;
   border-radius: 50%;
   bottom: -8px;
-  left: 621px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 table {
   margin: 50px auto;
@@ -179,7 +174,8 @@ table tr:last-child {
   background-color: #050505;
   border-radius: 50%;
   bottom: -8px;
-  left: 621px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .about-me__info-skills span {
   font-size: 30px;
@@ -250,7 +246,8 @@ table tr:last-child {
   background-color: #050505;
   border-radius: 50%;
   bottom: -8px;
-  left: 621px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .about-me__info-hobby span {
   font-size: 30px;
@@ -288,7 +285,8 @@ table tr:last-child {
   background-color: #050505;
   border-radius: 50%;
   bottom: -8px;
-  left: 621px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .portfolio__block span {
   font-size: 30px;
