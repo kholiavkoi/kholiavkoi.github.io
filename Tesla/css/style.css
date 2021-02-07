@@ -287,7 +287,7 @@ body {
 }
 
 .design-row__item {
-  min-width: 570px;
+  max-width: 570px;
   width: 100%;
   padding-right: 15px;
   display: flex;

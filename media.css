@@ -198,8 +198,7 @@
     width: 280px;
   }
   @media (max-width: 350px) {
-    .header__menu-img {
-      margin: 10px 0;
-    }
+  .header__menu-img {
+    margin: 10px 0;
   }
-} ;
+} 
